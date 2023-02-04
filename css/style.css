@@ -1,0 +1,62 @@
+body {
+    background-color: gainsboro;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    height: 100vh;
+}
+.container-header {
+    background-color: lightyellow;
+    width: 400px;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.img-header img{
+    border: 8px dashed #ffc107;
+    margin-bottom: 20px;
+}
+
+.text-header {
+    overflow: auto;
+    background-color: #ffeb3b80;
+    line-height: 25px;
+    background-attachment: scroll;
+    padding: 15px;
+    margin: 15px;
+    height: 200px;
+    border-radius: 10px;
+    text-align: justify;
+}
+/* .container-header */
+.text-header::first-letter {
+    font-size: 25px;
+}
+
+/*  */
+u {
+    font-weight: bold;
+}
+
+.link-header {
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.link-header a {
+    text-decoration: none;
+}
+.link-header a:hover{
+    color: #ffc107;
+    font-size: 18px;
+}
